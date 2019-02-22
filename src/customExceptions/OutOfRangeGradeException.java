@@ -11,7 +11,7 @@ public class OutOfRangeGradeException extends IllegalArgumentException{
 	private String customMessage;
 	
 	public OutOfRangeGradeException(double g, double max, double min) {
-		super("The grade is out of range. ");
+		super("The grade is out of range. "); 
 
 		grade = g;
 		calculateTypeOfOut(max, min);
